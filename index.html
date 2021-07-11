@@ -71,9 +71,13 @@ body, html {
 
 #newemail {
   font-size: 14px;
-  text-align: inherit
+  text-align: justify;
 }
 
+#newemail {
+  font-size: 14px;
+  text-align: center;
+}
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
@@ -96,6 +100,7 @@ body, html {
 #accountno {
   font-size: 14px;
   font-style: bold;
+  text-align: justify;
 }
 
 #qrcode {
@@ -105,7 +110,12 @@ body, html {
   border: 1px solid grey;
 }
 
-
+#qr {
+  color: #05386B;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+}
 }
 
 </style>
@@ -563,13 +573,14 @@ body, html {
   <h1 class="w3-center w3-xxlarge"> CONNECT and DONATE!</h1>
   <div class="w3-container">
   <div class="w3-half w3-left" style="margin-top:48px" id="contactdetails">
-    <p id="newemail"><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i></a> 76/38 Mint Tiwanon Bldg, 3rd Floor, Room 308 Moo 1, Tiwanon Rd, Baan Mai, Pakkret, Nonthaburi 11120</p>
-    <p id="newemail"><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i><a href="tel:+66 21252471">+66 21252471</a></p>
-    <p id="newemail"><i class="fa fa-user fa-fw w3-xlarge w3-margin-right"> </i>San Lorenzo (Thailand) Foundation</p>
+    <p id="newemail1"><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i></a> 76/38 Mint Tiwanon Bldg, 3rd Floor, Room 308 Moo 1, Tiwanon Rd, Baan Mai, Pakkret, Nonthaburi 11120</p>
+    <p id="accountno"><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i><a href="tel:+66 21252471">+66 21252471</a></p>
+    <p id="accountno"><i class="fa fa-user fa-fw w3-xlarge w3-margin-right"> </i>San Lorenzo (Thailand) Foundation</p>
     <p id="accountno"><i class="fa fa-bank fa-fw w3-xlarge w3-margin-right"> </i> 470-1-04522-5 (KASIKORN BANK)</p>
     <p id="accountno"><i class="fa fa-check-square-o fa-fw w3-xlarge w3-margin-right"> </i> SWIFT : KASITHBK </p>
     <div class="w3-xlarge w3-half w3-center">
     <img src="img\9D15DF8E-1B4E-4F46-B547-5FFAB3603BF0.jpeg" id="qrcode">
+    <p id="qr"> Scan me to donate using mobile bank app </p>
     </div>
   </div>
 
